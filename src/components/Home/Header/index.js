@@ -8,30 +8,14 @@ const Header = () => {
           <div className="header__heading">
             <h1 className="header__heading--main" >
               <div className="header__heading--main-1">
-                {[...'Google'].map((letter, index) => (
-                  <span style={{ display: 'inline-block' }} key={index}>{letter}</span>
-                ))}
+                COMSATS
               </div>
               <div className="header__heading--main-2">
-                {[...'Developer'].map((letter, index) => (
-                  <span style={{ display: 'inline-block' }} key={index}>{letter}</span>
-                ))}
-              </div>
-              <br />
-              <div className="header__heading--main-3">
-                {[...'Student'].map((letter, index) => (
-                  <span style={{ display: 'inline-block' }} key={index}>{letter}</span>
-                ))}
-              </div>
-              <div className="header__heading--main-4">
-                {[...'Clubs'].map((letter, index) => (
-                  <span style={{ display: 'inline-block' }} key={index}>{letter}</span>
-                ))}
+                Hackathon
               </div>
             </h1>
           </div>
-          <div animate={{ opacity: [0, 1] }} transition={{ duration: 1, delay: 1.2 }}>
-            <h2 className="header__heading--sub">COMSATS, Sahiwal Chapter</h2>
+          <div>
             <p className="header__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

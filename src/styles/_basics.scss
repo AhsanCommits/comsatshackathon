@@ -1,12 +1,14 @@
-*,*::before,*::after{
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-*::selection{
-  color: #fff;
-  background-color: #3A3E41;
+*::selection {
+  color: #121212;
+  background-color: #fff;
 }
 
 // ::-webkit-scrollbar {
@@ -27,50 +29,46 @@
 //   width: 6px;
 // }
 
-::-webkit-scrollbar-track
-{
-	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #F5F5F5;
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
 }
 
-::-webkit-scrollbar
-{
-	width: 12px;
-	background-color: #F5F5F5;
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
 }
 
-::-webkit-scrollbar-thumb
-{
-	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #3A3E41;
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #3a3e41;
 }
 
-
-
-html{
+html {
   font-size: 62.5%;
 }
 
-body{
+body {
   scroll-behavior: smooth;
   font-family: Google Sans;
   overflow-x: hidden;
 }
 
-@media (max-width: 1200px) { // width < 1200?
-  html{
+@media (max-width: 1200px) {
+  // width < 1200?
+  html {
     font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
   }
 }
 
 @media (max-width: 900px) {
-  html{
+  html {
     font-size: 50%;
-  } 
+  }
 }
 
 @media (min-width: 2000px) {
-  html{
+  html {
     font-size: 75%;
   }
 }
