@@ -115,19 +115,16 @@
       margin: 2rem 0;
 
       img {
-        width: 100%;
-      }
-
-      svg {
-        width: 7rem;
-        height: 7rem;
+        width: 20rem;
+        height: 20rem;
       }
     }
 
     &--heading {
-      font-size: 2.5rem;
-      font-weight: 400;
-      color: #121212;
+      font-size: 3rem;
+      font-weight: 900;
+      color: rgba(#121212, 85%);
+      text-transform: uppercase;
     }
 
     &--text {
