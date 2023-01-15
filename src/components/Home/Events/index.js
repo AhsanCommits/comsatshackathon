@@ -5,7 +5,7 @@ const Events = () => {
   return (
     <section id='events' className="events">
       <h1 className="events__heading">
-        Events
+        Workshops
       </h1>
 
       <div className="events__cards">

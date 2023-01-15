@@ -7,7 +7,7 @@ const Team = () => {
   return (
     <section id="team" className="team">
       <h1 className="team__heading">
-        Core Team
+        Our Team
       </h1>
 
       <div className="team__cards">

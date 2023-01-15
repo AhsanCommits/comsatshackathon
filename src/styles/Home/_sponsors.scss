@@ -5,22 +5,11 @@
   align-items: center;
 
   &__wrap {
-    background-image: linear-gradient(rgba(#000, 10%), rgba(#000, 10%)),
-      linear-gradient(#f8bb15, #f8bb15);
+    background-color: #dfa813;
 
     text-align: center;
     overflow: hidden;
     position: relative;
-
-    // &::after {
-    //   content: "";
-    //   position: absolute;
-    //   top: 0;
-    //   left: 0;
-    //   width: 100%;
-    //   height: 100%;
-    //   background-color: red;
-    // }
   }
 
   &__heading {
