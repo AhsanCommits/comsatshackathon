@@ -7,12 +7,7 @@ const Header = () => {
         <div className="header__container--left">
           <div className="header__heading">
             <h1 className="header__heading--main" >
-              <div className="header__heading--main-1">
-                COMSATS
-              </div>
-              <div className="header__heading--main-2">
-                Hackathon
-              </div>
+              DevHack
             </h1>
           </div>
           <div>

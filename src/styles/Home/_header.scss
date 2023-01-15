@@ -26,35 +26,16 @@
     line-height: 1.2;
 
     &--main {
-      font-size: 8rem;
+      font-size: 15rem;
       font-weight: 900;
+      background: linear-gradient(
+        90deg,
+        hsla(347, 89%, 61%, 1) 0%,
+        hsla(242, 42%, 40%, 1) 100%
+      );
 
-      &-1 {
-        color: #e94435;
-        display: inline-block;
-        overflow: hidden;
-        margin-right: 1rem;
-      }
-
-      &-2 {
-        color: #547dbe;
-        display: inline-block;
-        overflow: hidden;
-        margin-right: 1rem;
-      }
-
-      &-3 {
-        color: #f8bb15;
-        display: inline-block;
-        overflow: hidden;
-        margin-right: 1rem;
-      }
-
-      &-4 {
-        color: #0b9d58;
-        display: inline-block;
-        overflow: hidden;
-      }
+      background-clip: text;
+      color: transparent;
     }
 
     &--sub {
@@ -80,11 +61,10 @@
       text-decoration: none;
     }
 
-    background-color: #e94435;
+    background-color: #d74270;
     padding: 1rem 2rem;
     font-size: 1.8rem;
     border-radius: 25px;
-    // text-transform: uppercase;
     display: inline-block;
     transition: all 0.2s;
 
@@ -100,8 +80,6 @@
   }
 
   &__box {
-    // width: 100%;
-
     margin-right: 3rem;
     img {
       width: 100%;
