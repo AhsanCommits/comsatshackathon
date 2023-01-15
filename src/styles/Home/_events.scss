@@ -1,13 +1,25 @@
+@keyframes bgGradientAnimation {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
 .events {
   min-height: 100vh;
   padding: 5rem 0;
   color: rgba(#fff, 80%);
-  background-color: #121212;
+  background: linear-gradient(110deg, #f70063 10%, #1e4fff 110%);
+  background-size: 150% 100%;
+  animation: bgGradientAnimation 8s linear infinite;
+  animation-direction: alternate;
   text-align: center;
 
   &__heading {
     display: inline-block;
-    font-size: 6rem;
+    font-size: 8rem;
     font-weight: 900;
     text-transform: uppercase;
     margin: 5rem 0 2rem 0;
@@ -39,14 +51,23 @@
     border-radius: 2.5rem;
     margin: 2rem;
 
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
     &--img {
       img {
         width: 100%;
+        max-height: 250px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 1rem;
       }
     }
 
     &--info {
-      background-color: #1d1d1d;
       margin: 2rem 0 1rem 0;
 
       &-up {
@@ -69,7 +90,7 @@
       }
 
       span {
-        color: rgba(#101010, 70%);
+        color: rgba(#101010, 90%);
         margin-left: 0.7rem;
         font-size: 1.6rem;
         font-weight: 500;
@@ -91,7 +112,7 @@
       }
 
       span {
-        color: rgba(#101010, 70%);
+        color: rgba(#101010, 90%);
         margin-left: 0.7rem;
         font-size: 1.6rem;
         font-weight: 500;
@@ -112,7 +133,7 @@
       }
 
       span {
-        color: rgba(#101010, 70%);
+        color: rgba(#101010, 90%);
         margin-left: 0.7rem;
         font-size: 1.6rem;
         font-weight: 500;
@@ -120,7 +141,6 @@
     }
 
     &--text {
-      background-color: #1d1d1d;
       border-radius: 10px;
       padding: 1rem;
     }
@@ -140,6 +160,11 @@
         height: 2px;
         width: 100%;
         background: linear-gradient(90deg, #faae17 0%, #ffffff00 100%);
+        background: linear-gradient(
+          90deg,
+          hsla(242, 42%, 40%, 1) 0%,
+          transparent 100%
+        );
       }
     }
 

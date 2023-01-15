@@ -28,12 +28,12 @@
     &--main {
       font-size: 15rem;
       font-weight: 900;
+      display: inline-block;
       background: linear-gradient(
         90deg,
         hsla(347, 89%, 61%, 1) 0%,
         hsla(242, 42%, 40%, 1) 100%
       );
-
       background-clip: text;
       color: transparent;
     }

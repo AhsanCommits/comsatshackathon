@@ -1,18 +1,14 @@
-import { useState } from "react";
-
 const About = () => {
-
-  const [color, setColor] = useState(null);
 
 
   return (
-    <section id="about" className={`about about__${color}`}>
+    <section id="about" className={`about`}>
       <h1 className="about__heading">Themes</h1>
 
       <div className="about__cards">
 
 
-        <div className="about__card about__card--blue" onMouseEnter={() => setColor('blue')} onMouseLeave={() => setColor('null')}>
+        <div className="about__card about__card--blue">
           <div>
             <div className="about__card--image">
               <img src='./images/cards/educationTheme.svg' alt="" />
@@ -23,7 +19,7 @@ const About = () => {
 
         </div>
 
-        <div className="about__card about__card--red" onMouseEnter={() => setColor('red')} onMouseLeave={() => setColor('null')}>
+        <div className="about__card about__card--red">
           <div>
             <div className="about__card--image">
               <img src='./images/cards/industryTheme.svg' alt="" />
@@ -35,7 +31,7 @@ const About = () => {
 
 
 
-        <div className="about__card about__card--yellow" onMouseEnter={() => setColor('yellow')} onMouseLeave={() => setColor('null')}>
+        <div className="about__card about__card--yellow">
           <div>
             <div className="about__card--image">
               <img src='./images/cards/medicalTheme.svg' alt="" />
@@ -47,7 +43,7 @@ const About = () => {
         </div>
 
 
-        <div className="about__card about__card--green" onMouseEnter={() => setColor('green')} onMouseLeave={() => setColor('null')}>
+        <div className="about__card about__card--green">
           <div>
             <div className="about__card--image">
               <img src='./images/cards/natureTheme.svg' alt="" />

@@ -7,8 +7,15 @@
 
   &__heading {
     display: inline-block;
-    font-size: 6rem;
-    color: rgba(#fff, 80%);
+    font-size: 8rem;
+    // color: rgba(#fff, 80%);
+    background: linear-gradient(
+      90deg,
+      hsla(347, 89%, 61%, 1) 0%,
+      hsla(242, 42%, 40%, 1) 100%
+    );
+    background-clip: text;
+    color: transparent;
     font-weight: 900;
     text-transform: uppercase;
     margin: 5rem 0 2rem 0;
