@@ -125,6 +125,26 @@
   }
 }
 
+@media (max-width: 565px) {
+  .header {
+    &__heading {
+      &--main {
+        font-size: 12rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    &__heading {
+      &--main {
+        font-size: 9rem;
+      }
+    }
+  }
+}
+
 @media (max-width: 375px) {
   .header {
     &__heading {
