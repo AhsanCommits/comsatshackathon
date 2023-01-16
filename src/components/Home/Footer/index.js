@@ -1,40 +1,15 @@
 import '../../../styles/Home/footer.scss';
-import { SiGmail, SiLinkedin, SiTwitter, SiFacebook, SiInstagram, SiWhatsapp } from 'react-icons/si';
 
 const Footer = () => {
   return (
     <section className="footer">
       <div>
-        <h3 className='footer__heading'>Social Accounts</h3>
-        <div className='footer__links'>
-          <a className='footer__link footer__link--gmail' href='https://gmail.com' target='_blank' rel='noreferrer'>
-            <SiGmail />
-          </a>
-
-          <a className='footer__link footer__link--linkedin' href='https://www.linkedin.com/company/gdsc-comsats-sahiwal/' target='_blank' rel='noreferrer'>
-            <SiLinkedin />
-          </a>
-
-          <a className='footer__link footer__link--twitter' href='https://twitter.com' target='_blank' rel='noreferrer'>
-            <SiTwitter />
-          </a>
-
-          <a className='footer__link footer__link--facebook' href='https://facebook.com' target='_blank' rel='noreferrer'>
-            <SiFacebook />
-          </a>
-
-          <a className='footer__link footer__link--instagram' href='https://instagram.com' target='_blank' rel='noreferrer'>
-            <SiInstagram />
-          </a>
-
-          <a className='footer__link footer__link--whatsapp' href='https://whatsapp.com' target='_blank' rel='noreferrer'>
-            <SiWhatsapp />
-          </a>
-        </div>
+        <img src='./images/dsclogo.png' className='footer__img' alt='DevHack' />
+        <a href='mailto: droidthought@gmail.com' className='footer__contact'>Contact Us</a>
       </div>
 
       <div className='footer__credits'>
-        © All rights reserved by DevHack
+        All rights reserved by <span className='footer__credits--text'>DevHack</span>
       </div>
     </section>
   )

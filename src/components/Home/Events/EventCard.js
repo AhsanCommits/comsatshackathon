@@ -1,3 +1,5 @@
+import '../../../styles/Home/events__card.scss';
+
 const EventCard = ({ img, date, time, location, heading, description }) => {
   return (
     <div className="events__card">
