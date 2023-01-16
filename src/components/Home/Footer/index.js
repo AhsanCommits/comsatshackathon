@@ -1,3 +1,4 @@
+import '../../../styles/Home/footer.scss';
 import { SiGmail, SiLinkedin, SiTwitter, SiFacebook, SiInstagram, SiWhatsapp } from 'react-icons/si';
 
 const Footer = () => {

@@ -1,4 +1,5 @@
 import EventCard from "./EventCard";
+import '../../../styles/Home/events.scss';
 
 const Events = () => {
 

@@ -1,3 +1,4 @@
+import '../../../styles/Home/sponsors.scss';
 import { motion } from 'framer-motion';
 
 const Sponsors = () => {

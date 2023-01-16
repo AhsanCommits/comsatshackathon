@@ -1,3 +1,5 @@
+import '../../../styles/Home/header.scss';
+
 const Header = () => {
 
   return (

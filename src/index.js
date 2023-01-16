@@ -12,7 +12,7 @@ import ReactDOM from 'react-dom/client';
 
 import SiteRoutes from './SiteRoutes';
 
-import './styles/main.scss';
+import './styles/basics.scss';
 
 
 

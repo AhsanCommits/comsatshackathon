@@ -1,6 +1,7 @@
 import TeamCard from "./TeamCard";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import '../../../styles/Home/team.scss';
 
 
 const Team = () => {

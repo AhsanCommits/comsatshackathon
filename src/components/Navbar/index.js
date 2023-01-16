@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { NavHashLink } from "react-router-hash-link";
 import useScrollPosition from "../../hooks/useScrollPosition";
+import '../../styles/navbar.scss';
 
 
 const Navbar = () => {

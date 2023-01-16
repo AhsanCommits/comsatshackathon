@@ -1,3 +1,5 @@
+import '../../../styles/Home/about.scss';
+
 const About = () => {
 
 
