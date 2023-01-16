@@ -18,7 +18,7 @@ const Header = () => {
               developers, and entrepreneurs to work on innovative projects. It will be held over a period of 24-48 hours and accommodation and mentorship will be provided.
               Registration is open for all students, professionals, and enthusiasts.
             </p>
-            <a href="https://www.google.com" className="header__button" target={'_blank'} rel="noreferrer">Become a member</a>
+            <a href="https://www.google.com" className="header__button" target={'_blank'} rel="noreferrer">Register</a>
           </div>
 
         </div>
