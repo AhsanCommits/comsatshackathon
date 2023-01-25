@@ -1,1 +1,1 @@
-[Live Preview](https://gdsc-cs.netlify.app)
+[Live Preview](https://devhack.netlify.app)
