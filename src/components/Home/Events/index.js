@@ -13,7 +13,7 @@ const Events = () => {
 
         <EventCard
           img='./images/events/git.jpg'
-          date='March 3, 2023'
+          date='May 17, 2023'
           time='10:00 AM — 11:30 AM'
           location='Auditorium, 1st floor, A-block, Sahiwal Campus, CUI'
           heading='Intro to Git & GitHub'
@@ -23,7 +23,7 @@ const Events = () => {
 
         <EventCard
           img='./images/events/machineLearning.jpeg'
-          date='March 3, 2023'
+          date='May 17, 2023'
           time='12:00 PM — 01:30 PM'
           location='Auditorium, 1st floor, A-block, Sahiwal Campus, CUI'
           heading='Machine Learning Basics'
@@ -33,7 +33,7 @@ const Events = () => {
 
         <EventCard
           img='./images/events/twillio.png'
-          date='March 3, 2023'
+          date='March 17, 2023'
           time='02:00 PM — 03:30 PM'
           location='Auditorium, 1st floor, A-block, Sahiwal Campus, CUI'
           heading='How to use Twillio in projects'
