@@ -77,12 +77,12 @@ const Team = () => {
           />
 
           <TeamCard
-            pfp='https://i.imgur.com/k9lZGMG.jpg'
-            name='Ahmad Raza'
+            pfp='https://i.imgur.com/DjvJ8XP.jpg'
+            name='Ahmad Ghani'
             role='Web Development Lead'
-            linkedin='https://www.linkedin.com/in/ahmadraza365/'
+            linkedin='https://www.linkedin.com/in/ahmadghani'
             github='empty'
-            twitter='https://twitter.com/ahmadraza365'
+            twitter='empty'
           />
 
           <TeamCard
